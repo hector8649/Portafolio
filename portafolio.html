@@ -1,56 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header class="header-portafolio">
-    <div>
-        <h1>Héctor Rodríguez Requena</h1>
-    <nav class="header-nav">
-            <ul>
-                <li><a href="estudios.html">Estudios</a></li>
-                <li><a href="#experiencia laboral">Experiencia Laboral</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contactos">Contactame</a></li>
-            </ul>
-        </nav>
-          </div>
-          <div class="Selfie">
+        <div>
+            <h1>Héctor Rodríguez Requena</h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="estudios.html">Estudios</a></li>
+                    <li><a href="#experiencia laboral">Experiencia Laboral</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contactos">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="Selfie">
             <img src="Material/delgado_hernandez.png" alt="Foto">
-          </div>
-        </header>
+        </div>
+    </header>
     <main>
         <section class="porta-resumen">
             <h2>Resumen profesional</h2>
-            <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM) con una sólida base en programación y desarrollo web. Apasionado por la tecnología y con habilidades para resolver problemas mediante soluciones innovadoras. Busco oportunidades para aplicar mis conocimientos en entornos reales y seguir aprendiendo constantemente.</p>
+            <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM) con una sólida base en programación y
+                desarrollo web. Apasionado por la tecnología y con habilidades para resolver problemas mediante
+                soluciones innovadoras. Busco oportunidades para aplicar mis conocimientos en entornos reales y seguir
+                aprendiendo constantemente.</p>
         </section>
         <section class="porta-enlaces">
-        <article class="porta-laboral">
-                <h2>Experiencia Laboral</h2>
+            <article class="porta-laboral">
+                <h2>Experiencia Laboral <img src="Material/computer.png" alt="laboral"></h2>
                 <li><a href="laboral.html">Experiencia Laboral</a></li>
-        </article>
-        <article class="porta-estudios">
-                <h2>Estudios </h2>
+                <p>Entre en el enlace para acceder a mi experiencia laboral.</p>
+            </article>
+            <article class="porta-estudios">
+                <h2>Estudios <img src="Material/estudios-img.png" alt="estudios"></h2>
                 <li><a href="estudios.html">Estudios</a></li>
                 <p>Entre en el enlace para acceder a mis estudios realizados.</p>
-        </article>
-        <article class="porta-habilidades">
-                <h2>Habilidades</h2>
+            </article>
+            <article class="porta-habilidades">
+                <h2>Habilidades <img src="Material/habilidades-img.png" alt="habilidades"></h2>
                 <li><a href="habilidades.html">Habilidades</a></li>
-        </article>
-        
+                <p>Entre en el enlace para acceder a mis habilidades.</p>
+            </article>
         </section>
-        
+        <section class="porta-disponibilidad">
+            <h2>Horario</h2>
+            <table>
+                <thead>
+                    <tr>
+                     <th>Día</th>
+                     <th>Mañana (06:00-14:00)</th>
+                     <th>Tarde (14:00-22:00)</th>
+                     <th>Noche (22:00-06:00)</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                         <th>Lunes</th>
+                        <th>Disponible</th>
+                        <th>No Disponible - Estudios DAM</th>
+                        <th>Disponible</th>
+                    </tr>
+                    <tr class="alternos">
+                            <th>Martes</th>
+                            <th>Disponible</th>
+                            <th>No Disponible - Estudios DAM</th>
+                            <th>Disponible</th> 
+                    </tr>
+                    <tr>
+                            <th>Miércoles</th>
+                            <th>Disponible</th>
+                            <th>No Disponible - Estudios DAM</th>
+                            <th>Disponible</th>
+                    </tr>
+                    <tr class="alternos">
+                            <th>Jueves</th>
+                            <th>Disponible</th>
+                            <th>No Disponible - Estudios DAM</th>
+                            <th>Disponible</th>
+                    </tr>
+                    <tr>
+                            <th>Viernes</th>
+                            <th>Disponible</th>
+                            <th>No Disponible - Estudios DAM</th>
+                            <th>Disponible</th>
+                    </tr>
+                    <tr class="alternos">
+                            <th>Sábado</th>
+                            <th>Disponible</th>
+                            <th>Disponible</th>
+                            <th>Disponible</th>
+                    </tr>
+                    <tr>
+                            <th>Domingo</th>
+                            <th>Disponible</th>
+                            <th>Disponible</th>
+                            <th>Disponible</th>
+                    </tr>  
+            </table>
+        </section>
+
     </main>
-    <footer id="contactos">
-          <ul>
-                <li><a href="index.html">Github</a></li>
-                <li><a href="sobre_mi.html">Instagram</a></li>
-            </ul>
-    </footer>    
+    <footer>
+        <article class="porta-footer" id="contactos">
+        <h2>Contactos</h2>
+        <p>Contactarme si estais interesados en mi trabajo.</p>
+        <ul>
+            <li><a href="sobre_mi.html">Correo Electronico</a> <img src="Material/correo.png" alt="Correo logo"></li>
+            <li><a href="index.html">Github</a> <img src="Material/github.png" alt="GithubLogo"></li>
+        </ul>
+        </article>
+    </footer>
 </body>
+
 </html>

@@ -95,8 +95,8 @@ body {
 /* MAIN */
 main {
     max-width: 1100px;
-    margin: 40px auto 80px auto;
-    padding: 0 20px;
+    margin: 40px auto 0 auto; 
+    padding: 0 20px 6rem;    
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -123,6 +123,39 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
+.porta-enlaces article h2 {
+    color: #1c2f4a;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.porta-enlaces article p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+.porta-enlaces article li {
+    margin-bottom: 0.5rem;
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.2rem;
+    text-decoration: underline;
+}
+.porta-enlaces article a {
+    text-decoration: none;
+    color: #1c2f4a;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+.porta-enlaces article a:hover {
+    color: #fb0808;
+}
+.porta-enlaces article img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
 .porta-laboral{
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #e3e9f3;
@@ -136,4 +169,144 @@ main {
     border-radius: 10px;
     padding: 1.5rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.porta-habilidades {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e3e9f3;
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.porta-disponibilidad{
+    background-color: rgba(255, 255, 255, 0.97);
+    border: 1px solid  #dde3ec;
+    border-radius: 16px;
+    padding: 2.8rem;
+}
+.porta-disponibilidad table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 14px;
+}
+.porta-disponibilidad thead th {
+    padding: 18px 20px;
+    background-color: #e6e9ee;
+    color: #1c2f4a;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-align: center;
+    border-bottom: 2px solid #d2d8e2;
+}
+
+.porta-disponibilidad td {
+    padding: 14px 18px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #2b2f36;
+    border-bottom: 1px solid #edf0f5;
+}
+.alternos {
+    background-color: #e1e6f4;
+}
+footer::before {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    margin: 0 auto 3rem;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.4),
+        transparent
+    );
+}
+
+.porta-footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e3e9f3;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-30px);
+}
+
+.porta-footer h2 {
+    color: #1c2f4a;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.porta-footer p {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 1.2rem;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+footer a {
+    color: #1c2f4a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.estudios-info{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e3e9f3;
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.estudios-info h2 {
+    color: #1c2f4a;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.estudios-info p {
+    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: underline;
+    underline-offset: 4px;
+    color: #333333;
+    margin-bottom: 1rem;
+
+}
+.estudios-info img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.estudios-info iframe {
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 2px solid rgba(0,0,0,0.1);
+    width: 100%;
+    height: 300px;
 }
