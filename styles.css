@@ -310,3 +310,62 @@ footer img {
     width: 100%;
     height: 300px;
 }
+.laboral-info{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e3e9f3;
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.laboral-info h2{
+    color: #1c2f4a;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.laboral-info h3{
+    color: #1c2f4a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.laboral-info p {
+    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    underline-offset: 4px;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+.habilidades-info{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e3e9f3;
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.habilidades-info h2{
+    color: #1c2f4a;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.habilidades-info p {
+    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    underline-offset: 4px;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+
+
